@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 22px;
+    width: 285px;
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Details */
+h3 {
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+    display: inline-block;
+  font-size: 22px;
+
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    line-height: 30px;
+}
+
+.equilibrium-img img {
+    width: 285px;
+    height: 285px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.equilibrium-img img:hover {
+    opacity: 0.4;
+}
+
+.equilibrium-img {
+    border-radius: 10px;
+    height: 285px;
+    transition: 0.7s;
+    background-image: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+}
+
+.equilibrium-img:hover {
+    background-color: hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/icon-view.svg);
+    cursor: pointer;
+}
+
+/* Details */
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ///////////////// */
+.price-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ethereum */
+.ethereum {
+    display: flex;
+    align-items: center;
+}
+
+.ethereum p {
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.ethereum img {
+    width: 11px;
+    margin-right: 7px;
+    height: auto;
+}
+
+hr {
+    border: 0.1px solid hsl(215, 32%, 27%);
+    margin-top: -10px;
+}
+
+/* Time */
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time img {
+    height: 17px;
+    margin-right: 5px;
+    height: auto;
+}
+
+.time p {
+    font-size: 15px;
+}
+
+/* ///////////////// */
+/* Avatar */
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.avatar span {
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+    font-size: 15px;
+}
+.avatar p{
+    font-size: 15px;
+}
+.avatar span:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.avatar img {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+/* ///////////////// */
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 15px;
+}
+
+.attribution a {
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.attribution a:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 0.3s;
+}
